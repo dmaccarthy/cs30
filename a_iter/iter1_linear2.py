@@ -28,6 +28,6 @@ def main():
     print("Searching:")
     #   for match in search(data, matchSurname, name="Smith"):
     for match in search(data, matchYear, year=2004):
-        print(match)
+        print(data[match])
 
 main()
