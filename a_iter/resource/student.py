@@ -3,7 +3,7 @@ from datetime import date, timedelta
 
 class Student:
     _count = 0
-    _avg12 = date(2005, 2, 1)
+    _avg12 = date(2007, 2, 1)
     _courseList = ["Computing Science {}", "Science {}", "Mathematics {}-1",
         "English {}-1", "Social Studies {}-1", "Phys Ed {}", "Drama {}", "Art {}"]
 
