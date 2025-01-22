@@ -17,7 +17,7 @@ students = LinkedList()
 students.insert(Student() for i in range(1200))
 
 # Search criteria
-crit = {"birthyear":1999, "courses":["Computing Science 30"]}
+crit = {"birthyear":2007, "courses":["Computing Science 30"]}
 
 # Perform search
 for student in students.find(match, 20, **crit):
